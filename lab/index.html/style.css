@@ -1,0 +1,219 @@
+body {
+   margin: 0;
+   font-family: Arial, sans-serif;
+   background-color: #f8f8f8;
+}
+
+
+header {
+   text-align: center;
+   padding: 40px;
+   background: #1f3c88;
+   color: white;
+}
+
+
+nav {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   background: white;
+   padding: 20px;
+   border-bottom: 1px solid #ddd;
+}
+
+
+nav a {
+   text-decoration: none;
+   color: #333;
+   font-weight: bold;
+}
+
+
+.intro {
+   text-align: center;
+   padding: 40px;
+}
+
+
+.cards {
+   display: grid;
+   grid-template-columns: repeat(2, 300px);
+   gap: 20px;
+   justify-content: center;
+   padding: 30px;
+}
+
+
+.card {
+   background: white;
+   padding: 25px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+
+.card {
+   width: 70%;
+   margin: 30px auto;
+   background: white;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.card {
+   max-width: 1000px;
+   margin: 30px auto;
+   background: white;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.card ul {
+   line-height: 1.8;
+}
+
+
+.card li {
+   margin-bottom: 15px;
+}
+
+
+.card-link {
+   text-decoration: none;
+   color: inherit;      
+   display: block;    
+}
+
+
+
+
+
+
+.publications-container {
+   max-width: 850px;
+   margin: 30px auto;
+   padding: 20px;
+   background-color: #ffffff;
+}
+
+
+
+
+.publications-container h2 {
+   color: #1a365d;
+   border-bottom: 2px solid #e2e8f0;
+   padding-bottom: 10px;
+   margin-bottom: 25px;
+}
+
+
+
+
+.pub-list {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+
+
+
+.pub-item {
+   position: relative;
+   padding-left: 25px;
+   text-indent: -25px;
+   line-height: 1.6;
+   margin-bottom: 22px;
+   color: #333333;
+   font-size: 0.95rem;
+}
+
+
+
+
+.pub-year {
+   display: inline-block;
+   font-weight: bold;
+   color: #2b6cb0;
+   margin-right: 8px;
+   text-indent: 0;
+}
+
+
+.pub-title {
+   color: #2d3748;
+   font-weight: 600;
+   text-decoration: none;
+   border-bottom: 1px dashed #cbd5e0;
+   transition: all 0.2s ease-in-out;
+}
+
+
+.pub-title:hover {
+   color: #3182ce;
+   border-bottom: 1px solid #3182ce;
+   background-color: #ebf8ff;
+   padding: 0 2px;
+   border-radius: 2px;
+}
+
+
+
+
+.pub-item em {
+   color: #4a5568;
+   font-style: italic;
+}
+
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background: #f7fafc;
+    padding: 20px 25px;
+    border-radius: 8px;
+}
+
+.contact-box .contact-icon {
+    font-size: 1.8rem;
+    margin-top: 2px;
+}
+
+.contact-info-text h3 {
+    margin: 0 0 8px 0;
+    color: #1f3c88;
+    font-size: 1.15rem;
+}
+
+.contact-info-text p {
+    margin: 0;
+    line-height: 1.6;
+    color: #4a5568;
+}
+
+
+.email-link {
+    color: #2b6cb0;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px dashed #2b6cb0;
+    transition: all 0.2s;
+}
+
+.email-link:hover {
+    color: #1f3c88;
+    border-bottom: 1px solid #1f3c88;
+}
