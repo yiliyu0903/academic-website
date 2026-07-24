@@ -345,3 +345,58 @@ nav a {
         top: 0;
     }
 }
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.avatar-link {
+    display: inline-block;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.avatar-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 
+    object-fit: cover;
+    border: 3px solid #1d3557; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.avatar-img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+
+.section-divider {
+    margin: 40px auto;
+    max-width: 800px;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+
+.content-section {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    line-height: 1.7;
+    color: #333;
+}
+
+.content-section blockquote {
+    background-color: #f8f9fa;
+    border-left: 4px solid #1d3557;
+    margin: 20px 0;
+    padding: 15px 20px;
+    font-style: italic;
+    color: #555;
+    border-radius: 0 4px 4px 0;
+}
