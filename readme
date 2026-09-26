@@ -1,0 +1,17 @@
+# Curtis Hardin Research Lab Website
+
+This repository contains the source code for Professor Curtis Hardin's Academic Research Laboratory website.
+
+## Overview
+The website showcases research projects, publications, team members, and teaching materials for the lab.
+
+
+## Project Structure
+- `index.html` - Homepage
+- `about.html` - About the lab & Curtis Hardin
+- `people.html` - Lab members & team
+- `research.html` - Current research projects
+- `publications.html` - Published papers and work
+- `teaching.html` - Course and teaching materials
+- `contact.html` - Contact information
+- `style.css` - Custom styling
